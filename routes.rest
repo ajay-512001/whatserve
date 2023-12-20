@@ -1,0 +1,25 @@
+POST http://localhost:3000/whastSendReq
+Content-Type: application/json
+
+{
+    "number": "91997078077@c.us",
+    "msg": "this is post api msg for santosh sir"
+}
+
+###########
+
+{
+    "number": "91997078077@c.us",
+    "file_path": "this is post api msg for santosh sir"
+}
+
+##############
+
+get http://localhost:3000/whastSend
+Content-Type: application/json
+
+
+##############
+
+get http://localhost:3000/getstatus
+Content-Type: application/json
